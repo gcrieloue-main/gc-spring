@@ -1,0 +1,10 @@
+
+server:
+  port: 8083
+  servlet:
+    context-path: /auth
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss}  %m%n"
+  level:
+    root: info
